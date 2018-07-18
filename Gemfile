@@ -60,3 +60,5 @@ source 'https://rails-assets.org' do
 end
 
 gem 'kaminari'
+
+gem 'simple_form'
