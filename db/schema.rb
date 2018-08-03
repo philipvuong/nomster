@@ -31,7 +31,7 @@ ActiveRecord::Schema.define(version: 20180731233222) do
     t.integer  "place_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.string   "pictures"
+    t.string   "picture"
     t.index ["place_id"], name: "index_photos_on_place_id", using: :btree
   end
 
