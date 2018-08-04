@@ -105,9 +105,11 @@
       <div class="col-10 offset-1">
   <!--       <blockquote> -->
           <% if photo.picture.present? %>
-            <%= image_tag photo.picture %> -
+            <%= image_tag photo.picture %>
           <% end %>
+          <br />
           <%= photo.caption %>
+          <br />
   <!--       </blockquote> -->
       </div>
     <% end %>
