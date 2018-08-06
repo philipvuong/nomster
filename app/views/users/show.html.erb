@@ -16,7 +16,7 @@
       <h4><%= @user.comments.where(rating: '4_stars').count %> total 4 star reviews</h4>
       <h4><%= @user.comments.where(rating: '3_stars').count %> total 3 star reviews</h4>
       <h4><%= @user.comments.where(rating: '2_stars').count %> total 2 star reviews</h4>
-      <h4><%= @user.comments.where(rating: '1_stars').count %> total 1 star reviews</h4>
+      <h4><%= @user.comments.where(rating: '1_star').count %> total 1 star reviews</h4>
     </div>
   </div>
   <div class="clear"></div>
